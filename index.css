@@ -104,7 +104,7 @@ body {
     z-index: 1;
     border: 1px solid black;
     border-radius: 0.5em;
-    transform: rotate3d(0,1,0,20deg) rotate3d(1,0,0,-2deg) translate(0.8em,-0.3em);
+    transform: translate(0.6em,-0.3em);
 }
 
 .heading-container {
