@@ -1,0 +1,119 @@
+@media screen and (min-width: 35.5em) {
+    .md-only {
+       display: none; 
+    }
+}
+@media screen and (min-width: 48em)	{
+    .md-only {
+        display: block;
+    }
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#nav {
+    margin: 3em 0 3em 0;
+}
+
+#nav > .menu-item {
+    padding: 0.5em 0em;
+    margin-right: 1em;
+    display: inline;
+    border: 1px solid black;
+    background: black;
+    border-radius: 0.5em;
+    height: 100%;
+}
+
+#nav > .menu-item > a, #nav > .menu-item > a:active {
+    text-decoration: none;
+    color: white;
+    padding: 1em;
+}
+
+#email, #email:active {
+    text-decoration: none;
+    color: black;
+}
+
+.pure-menu-item {
+    padding-right: 0.5em;
+}
+
+.pure-menu-item > a, .pure-menu-item > a:active {
+    color: black;
+    text-decoration: none;
+}
+
+#container {
+    padding: 3em 8em;
+    background: #b5ded8;
+    border-radius: 0.1em;
+}
+
+.image-container {
+    display: block;
+    position: relative;
+    margin-right: 1em;
+    max-width: 80%;
+}
+
+.image-container > img {
+    border: 1px solid black;
+    position: relative;
+    border-radius: 0.5em;
+    z-index: 2;
+}
+
+.image-container::before {
+    background: #dedd67;
+    position:absolute;
+    display: inline-block;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    content: '';
+    z-index: 1;
+    border: 1px solid black;
+    border-radius: 0.5em;
+    transform: rotate3d(0,1,0,20deg) rotate3d(1,0,0,-2deg) translate(0.8em,-0.3em);
+}
+
+.heading-container {
+    display: block;
+    margin-top: 1em;
+    position: relative;
+    width: fit-content;
+}
+
+.heading-container > h2 {
+    position: relative;
+}
+
+.heading-container::after {
+    display: inline-block;
+    position: absolute;
+    width: 100%;
+    top: 100%;
+    left: 0;
+    content: '';
+    height: 3px;
+    background: #af7ac8;
+}
+
+.publication > p {
+    display: inline;
+    line-height: 24px;
+}
+
+.publication > a, .publication > a:active {
+    color: black;
+    text-decoration: none;
+}
+
+.publication > .title {
+    font-weight: bold;
+}
