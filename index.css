@@ -48,9 +48,10 @@ body {
 }
 
 #container {
-    padding: 3em 8em;
+    padding: 3em 8em 0em 8em;
     background: #b5ded8;
     border-radius: 0.1em;
+    min-height: 100%;
 }
 
 .image-container {
