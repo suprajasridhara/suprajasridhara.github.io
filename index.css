@@ -144,6 +144,9 @@ body {
     font-weight: bold;
 }
 
+.publication-new > p > a {
+    color: black;
+}
 
 .publication-new {
     border-bottom: 1px solid #af7ac8;
